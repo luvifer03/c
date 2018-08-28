@@ -1,5 +1,4 @@
-#include<iostream.h>
-#include<conio.h>
+#include<stdio.h>
 
 void main()
 {
@@ -8,12 +7,12 @@ int x=0;
 int a[y];
 int i=0;
 
-cout<<"enter  number of binary bits";
-cin>>y;
+printf("enter  number of binary bits");
+scanf("%d", &y);
 //asking for number of bits
 
-cout<<"enter the 8 binary number";
-cin>>n;
+printf("enter the 8 binary number");
+scanf("%d", &n);
 //taking the input from user
 
         for(i=0;i<y;i++)
@@ -27,5 +26,5 @@ cin>>n;
              {
                 x=a[i]*2*i+x;
              }
-  cout<<x;
+  printf(x);
   }
